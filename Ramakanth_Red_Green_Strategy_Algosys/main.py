@@ -285,6 +285,7 @@ def main_strategy ():
 
                     params["InitialTrade"] = "BUY"
                     print(f"Closing previous put trade  @ {params['Symbol']} @ {usedltp} and opening call trade")
+    #                 
 
 
 
