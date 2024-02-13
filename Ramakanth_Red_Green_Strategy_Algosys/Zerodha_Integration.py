@@ -44,14 +44,20 @@ def get_prevous_close(symbol):
 
 def get_ltp(symbol):
     res = kite.quote(f"NSE:{symbol}")[f"NSE:{symbol}"]
-    print(res)
+
     first_buy_price = res['depth']['buy'][0]['price']
     return first_buy_price
 
-def combinedltp(formatted_symbols):
+def combinedltp_future(formatted_symbols):
 
-    res=kite.quote(["NSE:NIFTY 50","NSE:NIFTY BANK", "NSE:ACC", "NSE:SBIN", "NSE:HDFC" ])
+    res=kite.quote(["NSE:NIFTY 50","NSE:NIFTY BANK" ])
 
+    return res
+
+def combinedltp_spot():
+
+    res=kite.quote(["NSE:NIFTY 50","NSE:NIFTY BANK" ])
+    print(res)
     return res
 
 def get_ltp_option(symbol):
@@ -66,25 +72,29 @@ def get_ltp_option(symbol):
 
 
 
-def get_instrument_token (sym,exp,segment,exchange,type):
+
+
+def get_option_symbol (sym,exp,strike,type):
     global kite
     df = pd.read_csv('Instruments.csv')
-    instrument_token = None  # Initialize the instrument token as None
+    symbol = None  # Initialize the instrument token as None
 
-    while instrument_token is None:
+    while symbol is None:
 
         selected_row = df[(df['instrument_type'] == type) &
-                          (df['expiry'].astype(str) == exp)]
+                          (df['expiry'].astype(str) == exp) &
+                          (df['strike'].astype(int) == strike)& (df['name'] == sym)]
         # print('selected_row: ',selected_row)
 
         if not selected_row.empty:
-            instrument_token = selected_row['instrument_token'].values[0]
+            symbol = selected_row['tradingsymbol'].values[0]
         else:
             print("Instrument token not found. Retrying...")
 
     # print("instrument_token: ", instrument_token)
 
-    return instrument_token
+    return symbol
+
 
 def get_historical_data(Token, timeframe,sym):
     from_datetime = datetime.now() - timedelta(days=1)  # From last 1 day
