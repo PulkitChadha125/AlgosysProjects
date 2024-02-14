@@ -112,8 +112,7 @@ credentials_dict = get_zerodha_credentials()
 user_id = credentials_dict.get('ZerodhaUserId')  # Login Id
 password = credentials_dict.get('ZerodhaPassword')  # Login password
 fakey = credentials_dict.get('Zerodha2fa')
-StartTime=credentials_dict.get('StartTime')
-Stoptime=credentials_dict.get('Stoptime')
+
 strategycode= credentials_dict.get('StrategyCode')
 twofa = pyotp.TOTP(fakey)
 twofa = twofa.now()
@@ -472,4 +471,12 @@ def main_strategy ():
 
 
 while True :
-    main_strategy ()
+
+    StartTime = credentials_dict.get('StartTime')
+    Stoptime = credentials_dict.get('Stoptime')
+    start_time = datetime.strptime(StartTime, '%H:%M').time()
+    stop_time = datetime.strptime(Stoptime, '%H:%M').time()
+
+    now = datetime.now().time()
+    if now >= start_time and now < stop_time:
+        main_strategy ()
