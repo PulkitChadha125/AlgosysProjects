@@ -57,7 +57,6 @@ def combinedltp_future(formatted_symbols):
 def combinedltp_spot():
 
     res=kite.quote(["NSE:NIFTY 50","NSE:NIFTY BANK" ])
-    print(res)
     return res
 
 def get_ltp_option(symbol):

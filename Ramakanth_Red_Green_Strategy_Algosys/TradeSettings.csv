@@ -1,11 +1,3 @@
-Symbol,SymbolType,Timeframe,Quantity,TradeExpiery,Expiery Type,OPTION CONTRACT TYPE,strike distance,MaxProfitPerTrade,MaxLossPerTrade,MaxProfitDay,MaxLossDay
-NIFTY,SPOT,15minute,25,15-02-2024,WEEKLY,ATM,100,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
+Symbol,SymbolType,Timeframe,Quantity,TradeExpiery,Expiery Type,OPTION CONTRACT TYPE,strike distance,Target,Stoploss,TSL_AFTER,TSL_BY,USETSL,MaxProfitDay,MaxLossDay
+NIFTY,SPOT,15minute,50,15-02-2024,WEEKLY,ATM,100,,,,,TRUE,,
+BANKNIFTY,SPOT,15minute,15,14-02-2024,WEEKLY,ATM,100,,,,,TRUE,,

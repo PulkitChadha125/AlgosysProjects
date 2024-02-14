@@ -14,4 +14,5 @@ def place_getalert(symbol,direction,price,code,qty):
             quantityInAlert = qty)
 
     r = requests.get(URL, params=params1)
+
     return r
