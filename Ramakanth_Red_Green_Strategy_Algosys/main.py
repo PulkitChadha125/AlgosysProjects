@@ -275,6 +275,7 @@ def main_strategy ():
                 low_value =float(params["low"])
                 close_value = float(params["close"])
                 time_value= params["time_value"]
+                #  qwjd
 
 
 
