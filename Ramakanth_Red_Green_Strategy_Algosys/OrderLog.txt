@@ -1,0 +1,278 @@
+ 16/02/2024 13:22:38 Initial Buy taken previous candle red ,open =  22055.3 , close=22042.0 @ NIFTY @ 22047.8 @ PE contract =NIFTY2422222050PE @ price 147.75 @ previous candle time 2024-02-16 13:15:00 
+16/02/2024 13:22:39 Initial Buy taken previous candle green  open =  46443.15 , close=46449.8 @ BANKNIFTY @ 46470.05 @ CE contract =BANKNIFTY2422146500CE @ price 420.1 @ previous candle time 2024-02-16 13:15:00
+16/02/2024 13:25:10 Initial Buy taken previous candle green  open =  22048.8 , close=22051.55 @ NIFTY @ 22051 @ CE contract =NIFTY2422222050CE @ price 168.3 @ previous candle time 2024-02-16 13:20:00
+16/02/2024 13:25:11 Initial Buy taken previous candle green  open =  46462.7 , close=46469.6 @ BANKNIFTY @ 46465.1 @ CE contract =BANKNIFTY2422146500CE @ price 427 @ previous candle time 2024-02-16 13:20:00
+16/02/2024 13:25:29 NIFTY: Ltp less than previous candle low : 22048.8 Closing previous call trade and opening put trade NIFTY2422222050PE @ 148.9
+16/02/2024 13:25:30 BANKNIFTY: Ltp less than previous candle low : 46462.7 Closing previous call trade and opening put trade BANKNIFTY2422146500PE @ 406.2
+ 16/02/2024 13:30:57 Initial Buy taken previous candle red ,open =  22048.8 , close=22040.7 @ NIFTY @ 22039.7 @ PE contract =NIFTY2422222050PE @ price 154.2 @ previous candle time 2024-02-16 13:25:00 
+ 16/02/2024 13:30:57 Initial Buy taken previous candle red ,open =  46462.7 , close=46433.95 @ BANKNIFTY @ 46448.05 @ PE contract =BANKNIFTY2422146400PE @ price 374.35 @ previous candle time 2024-02-16 13:25:00 
+16/02/2024 13:35:31 Initial Buy taken previous candle green  open =  22040.05 , close=22048.65 @ NIFTY @ 22057.6 @ CE contract =NIFTY2422222050CE @ price 166.15 @ previous candle time 2024-02-16 13:30:00
+16/02/2024 13:35:32 Initial Buy taken previous candle green  open =  46433.9 , close=46479.85 @ BANKNIFTY @ 46516.4 @ CE contract =BANKNIFTY2422146500CE @ price 453.7 @ previous candle time 2024-02-16 13:30:00
+ 16/02/2024 13:58:10 Initial Buy taken previous candle red ,open =  22057.85 , close=22057.6 @ NIFTY @ 22056.05 @ PE contract =NIFTY2422222050PE @ price 150.05 @ previous candle time 2024-02-16 13:50:00 
+ 16/02/2024 13:58:11 Initial Buy taken previous candle red ,open =  46647.8 , close=46628.8 @ BANKNIFTY @ 46556.05 @ PE contract =BANKNIFTY2422146600PE @ price 399.45 @ previous candle time 2024-02-16 13:50:00 
+ 16/02/2024 13:59:51 Initial Buy taken previous candle red ,open =  22057.85 , close=22057.6 @ NIFTY @ 22057.55 @ PE contract =NIFTY2422222050PE @ price 151.9 @ previous candle time 2024-02-16 13:50:00 
+ 16/02/2024 13:59:51 Initial Buy taken previous candle red ,open =  46647.8 , close=46628.8 @ BANKNIFTY @ 46558.8 @ PE contract =BANKNIFTY2422146600PE @ price 416.3 @ previous candle time 2024-02-16 13:50:00 
+ 16/02/2024 14:02:11 Initial Buy taken previous candle red ,open =  22057.2 , close=22055.75 @ NIFTY @ 22052.15 @ PE contract =NIFTY2422222050PE @ price 152.1 @ previous candle time 2024-02-16 13:55:00 
+ 16/02/2024 14:02:11 Initial Buy taken previous candle red ,open =  46629.2 , close=46556.0 @ BANKNIFTY @ 46542 @ PE contract =BANKNIFTY2422146500PE @ price 368.4 @ previous candle time 2024-02-16 13:55:00 
+16/02/2024 15:30:36 Initial Buy taken previous candle green  open =  22027.85 , close=22033.5 @ NIFTY @ 22032.6 @ CE contract =NIFTY2422222050CE @ price 148.15 @ previous candle time 2024-02-16 15:25:00
+16/02/2024 15:30:37 Initial Buy taken previous candle green  open =  22027.85 , close=22033.5 @ BANKNIFTY @ 46368.1 @ CE contract =BANKNIFTY2422146400CE @ price 378.75 @ previous candle time 2024-02-16 15:25:00
+16/02/2024 15:32:17 Initial Buy taken previous candle green  open =  22027.85 , close=22033.5 @ NIFTY @ 22040.7 @ CE contract =NIFTY2422222050CE @ price 148.15 @ previous candle time 2024-02-16 15:25:00
+16/02/2024 15:32:17 Initial Buy taken previous candle green  open =  22027.85 , close=22033.5 @ BANKNIFTY @ 46384.85 @ CE contract =BANKNIFTY2422146400CE @ price 378.75 @ previous candle time 2024-02-16 15:25:00
+16/02/2024 15:33:50 Initial Buy taken previous candle green  open =  22027.85 , close=22033.5 @ NIFTY @ 22040.7 @ CE contract =NIFTY2422222050CE @ price 148.15 @ previous candle time 2024-02-16 15:25:00
+16/02/2024 15:33:51 Initial Buy taken previous candle green  open =  46350.05 , close=46369.75 @ BANKNIFTY @ 46384.85 @ CE contract =BANKNIFTY2422146400CE @ price 378.75 @ previous candle time 2024-02-16 15:25:00
+16/02/2024 15:34:30 Initial Buy taken previous candle green  open =  22027.85 , close=22033.5 @ NIFTY @ 22040.7 @ CE contract =NIFTY2422222050CE @ price 148.15 @ previous candle time 2024-02-16 15:25:00
+16/02/2024 15:34:31 Initial Buy taken previous candle green  open =  22027.85 , close=22033.5 @ BANKNIFTY @ 46384.85 @ CE contract =BANKNIFTY2422146400CE @ price 378.75 @ previous candle time 2024-02-16 15:25:00
+16/02/2024 15:36:24 Initial Buy taken previous candle green  open =  22032.6 , close=22040.7 @ NIFTY @ 22040.7 @ CE contract =NIFTY2422222050CE @ price 148.15 @ previous candle time 2024-02-16 15:30:00
+16/02/2024 15:36:25 Initial Buy taken previous candle green  open =  22032.6 , close=22040.7 @ BANKNIFTY @ 46384.85 @ CE contract =BANKNIFTY2422146400CE @ price 378.75 @ previous candle time 2024-02-16 15:30:00
+ 19/02/2024 12:10:00 Initial Buy taken previous candle red ,open =  22144.9 , close=22143.85 @ NIFTY @ 22143.85 @ PE contract =NIFTY2422222150PE @ price 131.55 @ previous candle time 2024-02-19 12:09:00 
+19/02/2024 12:10:11 NIFTY:  Ltp: 22146.05 greater than previous candle high 22145.85 Closing previous put trade and opening call trade NIFTY2422222150CE @ 148.7
+19/02/2024 12:10:36 NIFTY: Ltp less than previous candle low : 22141.85 Closing previous call trade and opening put trade NIFTY2422222150PE @ 133.2
+19/02/2024 12:10:43 NIFTY:  Ltp: 22146.1 greater than previous candle high 22145.85 Closing previous put trade and opening call trade NIFTY2422222150CE @ 148.05
+19/02/2024 12:11:00 Initial Buy taken previous candle green  open =  46614.25 , close=46617.25 @ BANKNIFTY @ 46617.25 @ CE contract =BANKNIFTY2422146600CE @ price 403.5 @ previous candle time 2024-02-19 12:10:00
+ 19/02/2024 12:12:59exit previous trade BANKNIFTY2422146600CE
+ 19/02/2024 12:12:59 Initial Buy taken previous candle red ,open =  46627.85 , close=46627.5 @ BANKNIFTY @ 46627.5 @ PE contract =BANKNIFTY2422146600PE @ price 288.6 @ previous candle time 2024-02-19 12:12:00 
+19/02/2024 12:13:23 BANKNIFTY:  Ltp: 46635.6 greater than previous candle high 46630.7 Closing previous put trade and opening call trade BANKNIFTY2422146600CE @ 416.55
+19/02/2024 12:14:31 BANKNIFTY: Ltp less than previous candle low : 46623.3 Closing previous call trade and opening put trade BANKNIFTY2422146600PE @ 289.25
+ 19/02/2024 12:15:00exit previous trade NIFTY2422222150CE
+ 19/02/2024 12:15:00 Initial Buy taken previous candle red ,open =  22155.15 , close=22150.1 @ NIFTY @ 22150.1 @ PE contract =NIFTY2422222150PE @ price 130.3 @ previous candle time 2024-02-19 12:14:00 
+ 19/02/2024 12:16:00exit previous trade NIFTY2422222150PE
+19/02/2024 12:16:00 Initial Buy taken previous candle green  open =  22150.6 , close=22151.2 @ NIFTY @ 22151.2 @ CE contract =NIFTY2422222150CE @ price 152.85 @ previous candle time 2024-02-19 12:15:00
+19/02/2024 12:17:08 BANKNIFTY:  Ltp: 46630.05 greater than previous candle high 46627.95 Closing previous put trade and opening call trade BANKNIFTY2422146600CE @ 411
+ 19/02/2024 12:18:00exit previous trade BANKNIFTY2422146600CE
+ 19/02/2024 12:18:00 Initial Buy taken previous candle red ,open =  46625.85 , close=46620.35 @ BANKNIFTY @ 46620.35 @ PE contract =BANKNIFTY2422146600PE @ price 292.5 @ previous candle time 2024-02-19 12:17:00 
+19/02/2024 12:18:36 NIFTY: Ltp less than previous candle low : 22148.85 Closing previous call trade and opening put trade NIFTY2422222150PE @ 129.05
+ 19/02/2024 12:19:59exit previous trade BANKNIFTY2422146600PE
+19/02/2024 12:19:59 Initial Buy taken previous candle green  open =  46614.85 , close=46615.6 @ BANKNIFTY @ 46615.6 @ CE contract =BANKNIFTY2422146600CE @ price 388.9 @ previous candle time 2024-02-19 12:19:00
+19/02/2024 12:20:09 BANKNIFTY: Ltp less than previous candle low : 46614.45 Closing previous call trade and opening put trade BANKNIFTY2422146600PE @ 301.5
+19/02/2024 12:21:31 NIFTY:  Ltp: 22148.25 greater than previous candle high 22147.85 Closing previous put trade and opening call trade NIFTY2422222150CE @ 152.45
+19/02/2024 12:21:38 BANKNIFTY:  Ltp: 46625.05 greater than previous candle high 46623.4 Closing previous put trade and opening call trade BANKNIFTY2422146600CE @ 405.45
+ 19/02/2024 12:22:59exit previous trade BANKNIFTY2422146600CE
+ 19/02/2024 12:22:59 Initial Buy taken previous candle red ,open =  46640.1 , close=46635.75 @ BANKNIFTY @ 46635.75 @ PE contract =BANKNIFTY2422146600PE @ price 288.9 @ previous candle time 2024-02-19 12:22:00 
+ 19/02/2024 12:25:00exit previous trade BANKNIFTY2422146600PE
+19/02/2024 12:25:00 Initial Buy taken previous candle green  open =  46613.85 , close=46630.35 @ BANKNIFTY @ 46630.35 @ CE contract =BANKNIFTY2422146600CE @ price 403.7 @ previous candle time 2024-02-19 12:24:00
+ 19/02/2024 12:25:59exit previous trade NIFTY2422222150CE
+ 19/02/2024 12:25:59 Initial Buy taken previous candle red ,open =  22152.45 , close=22151.1 @ NIFTY @ 22151.1 @ PE contract =NIFTY2422222150PE @ price 131.45 @ previous candle time 2024-02-19 12:25:00 
+19/02/2024 12:26:10 BANKNIFTY: Ltp less than previous candle low : 46613.85 Closing previous call trade and opening put trade BANKNIFTY2422146600PE @ 301.6
+19/02/2024 12:30:09 BANKNIFTY:  Ltp: 46605.6 greater than previous candle high 46605.0 Closing previous put trade and opening call trade BANKNIFTY2422146600CE @ 388.95
+19/02/2024 12:30:12 NIFTY:  Ltp: 22143.45 greater than previous candle high 22143.3 Closing previous put trade and opening call trade NIFTY2422222150CE @ 147.25
+19/02/2024 12:37:00 Initial Buy taken previous candle green  open =  22143.1 , close=22144.25 @ NIFTY @ 22144.25 @ CE contract =NIFTY2422222150CE @ price 148.45 @ previous candle time 2024-02-19 12:36:00
+19/02/2024 12:38:00 Initial Buy taken previous candle green  open =  46587.25 , close=46604.25 @ BANKNIFTY @ 46604.25 @ CE contract =BANKNIFTY2422146600CE @ price 396.1 @ previous candle time 2024-02-19 12:37:00
+ 19/02/2024 12:38:59exit previous trade NIFTY2422222150CE
+ 19/02/2024 12:38:59 Initial Buy taken previous candle red ,open =  22151.55 , close=22151.15 @ NIFTY @ 22151.15 @ PE contract =NIFTY2422222150PE @ price 127 @ previous candle time 2024-02-19 12:38:00 
+19/02/2024 12:39:18 NIFTY:  Ltp: 22153.95 greater than previous candle high 22153.3 Closing previous put trade and opening call trade NIFTY2422222150CE @ 154.45
+ 19/02/2024 12:41:00exit previous trade NIFTY2422222150CE
+ 19/02/2024 12:41:00 Initial Buy taken previous candle red ,open =  22154.1 , close=22152.1 @ NIFTY @ 22152.1 @ PE contract =NIFTY2422222150PE @ price 126.75 @ previous candle time 2024-02-19 12:40:00 
+19/02/2024 12:41:50 NIFTY:  Ltp: 22156.7 greater than previous candle high 22156.1 Closing previous put trade and opening call trade NIFTY2422222150CE @ 156.75
+ 19/02/2024 12:44:00exit previous trade BANKNIFTY2422146600CE
+ 19/02/2024 12:44:00 Initial Buy taken previous candle red ,open =  46648.4 , close=46636.5 @ BANKNIFTY @ 46636.5 @ PE contract =BANKNIFTY2422146600PE @ price 287.65 @ previous candle time 2024-02-19 12:43:00 
+ 19/02/2024 12:45:00exit previous trade NIFTY2422222150CE
+ 19/02/2024 12:45:00 Initial Buy taken previous candle red ,open =  22164.6 , close=22161.15 @ NIFTY @ 22161.15 @ PE contract =NIFTY2422222150PE @ price 125.35 @ previous candle time 2024-02-19 12:44:00 
+ 19/02/2024 12:46:00exit previous trade BANKNIFTY2422146600PE
+19/02/2024 12:46:00 Initial Buy taken previous candle green  open =  46631.65 , close=46636.75 @ BANKNIFTY @ 46636.75 @ CE contract =BANKNIFTY2422146600CE @ price 409.1 @ previous candle time 2024-02-19 12:45:00
+19/02/2024 12:46:26 BANKNIFTY: Ltp less than previous candle low : 46630.15 Closing previous call trade and opening put trade BANKNIFTY2422146600PE @ 289.85
+ 19/02/2024 12:48:00exit previous trade NIFTY2422222150PE
+19/02/2024 12:48:00 Initial Buy taken previous candle green  open =  22155.15 , close=22156.1 @ NIFTY @ 22156.1 @ CE contract =NIFTY2422222150CE @ price 152.05 @ previous candle time 2024-02-19 12:47:00
+19/02/2024 12:48:10 NIFTY: Ltp less than previous candle low : 22155.15 Closing previous call trade and opening put trade NIFTY2422222150PE @ 128.45
+19/02/2024 12:50:08 NIFTY:  Ltp: 22153.65 greater than previous candle high 22153.2 Closing previous put trade and opening call trade NIFTY2422222150CE @ 153.3
+ 19/02/2024 12:51:00exit previous trade BANKNIFTY2422146600PE
+19/02/2024 12:51:00 Initial Buy taken previous candle green  open =  46608.35 , close=46616.85 @ BANKNIFTY @ 46616.85 @ CE contract =BANKNIFTY2422146600CE @ price 400.2 @ previous candle time 2024-02-19 12:50:00
+ 19/02/2024 12:52:00exit previous trade BANKNIFTY2422146600CE
+ 19/02/2024 12:52:00 Initial Buy taken previous candle red ,open =  46618.7 , close=46616.15 @ BANKNIFTY @ 46616.15 @ PE contract =BANKNIFTY2422146600PE @ price 293 @ previous candle time 2024-02-19 12:51:00 
+ 19/02/2024 12:52:59exit previous trade NIFTY2422222150CE
+ 19/02/2024 12:52:59 Initial Buy taken previous candle red ,open =  22159.4 , close=22156.45 @ NIFTY @ 22156.45 @ PE contract =NIFTY2422222150PE @ price 128.75 @ previous candle time 2024-02-19 12:52:00 
+19/02/2024 12:55:26 BANKNIFTY:  Ltp: 46615.55 greater than previous candle high 46614.95 Closing previous put trade and opening call trade BANKNIFTY2422146600CE @ 400.05
+19/02/2024 12:55:28 NIFTY:  Ltp: 22158.85 greater than previous candle high 22158.75 Closing previous put trade and opening call trade NIFTY2422222150CE @ 152.7
+ 19/02/2024 12:58:00 Initial Buy taken previous candle red ,open =  22160.3 , close=22156.0 @ NIFTY @ 22156 @ PE contract =NIFTY2422222150PE @ price 128.65 @ previous candle time 2024-02-19 12:57:00 
+19/02/2024 12:59:00 Initial Buy taken previous candle green  open =  46625.25 , close=46634.75 @ BANKNIFTY @ 46634.75 @ CE contract =BANKNIFTY2422146600CE @ price 412.25 @ previous candle time 2024-02-19 12:58:00
+19/02/2024 12:59:20 NIFTY:  Ltp: 22160.95 greater than previous candle high 22160.65 Closing previous put trade and opening call trade NIFTY2422222150CE @ 154.85
+ 19/02/2024 12:59:59exit previous trade BANKNIFTY2422146600CE
+ 19/02/2024 12:59:59 Initial Buy taken previous candle red ,open =  46637.15 , close=46630.8 @ BANKNIFTY @ 46630.8 @ PE contract =BANKNIFTY2422146600PE @ price 286.1 @ previous candle time 2024-02-19 12:59:00 
+ 19/02/2024 13:00:49 Initial Buy taken previous candle red ,open =  22158.05 , close=22157.4 @ NIFTY @ 22164.25 @ PE contract =NIFTY2422222150PE @ price 126.15 @ previous candle time 2024-02-19 12:59:00 
+19/02/2024 13:00:49 NIFTY:  Ltp: 22164.25 greater than previous candle high 22161.75 Closing previous put trade and opening call trade NIFTY2422222150CE @ 155.65
+ 19/02/2024 13:02:00 Initial Buy taken previous candle red ,open =  46635.3 , close=46626.65 @ BANKNIFTY @ 46626.65 @ PE contract =BANKNIFTY2422146600PE @ price 289.85 @ previous candle time 2024-02-19 13:01:00 
+ 19/02/2024 13:02:42 Initial Buy taken previous candle red ,open =  22164.5 , close=22158.7 @ NIFTY @ 22153.85 @ PE contract =NIFTY2422222150PE @ price 129.05 @ previous candle time 2024-02-19 13:01:00 
+ 19/02/2024 13:06:40 Initial Buy taken previous candle red ,open =  22154.2 , close=22150.8 @ NIFTY @ 22148.75 @ PE contract =NIFTY2422222150PE @ price 129.25 @ previous candle time 2024-02-19 13:05:00 
+ 19/02/2024 13:06:49 Initial Buy taken previous candle red ,open =  46621.25 , close=46617.25 @ BANKNIFTY @ 46615.45 @ PE contract =BANKNIFTY2422146600PE @ price 295.25 @ previous candle time 2024-02-19 13:05:00 
+ 19/02/2024 13:07:08exit previous trade BANKNIFTY2422146600PE
+19/02/2024 13:07:08 Initial Buy taken previous candle green  open =  46618.35 , close=46620.05 @ BANKNIFTY @ 46628.8 @ CE contract =BANKNIFTY2422146600CE @ price 403.1 @ previous candle time 2024-02-19 13:06:00
+19/02/2024 13:07:17 NIFTY:  Ltp: 22158.95 greater than previous candle high 22151.75 Closing previous put trade and opening call trade NIFTY2422222150CE @ 153.7
+ 19/02/2024 13:09:00 Initial Buy taken previous candle red ,open =  22161.1 , close=22155.05 @ NIFTY @ 22155.05 @ PE contract =NIFTY2422222150PE @ price 127.85 @ previous candle time 2024-02-19 13:08:00 
+ 19/02/2024 13:09:07 Initial Buy taken previous candle red ,open =  46644.3 , close=46628.1 @ BANKNIFTY @ 46627.7 @ PE contract =BANKNIFTY2422146600PE @ price 285 @ previous candle time 2024-02-19 13:08:00 
+19/02/2024 13:09:31 BANKNIFTY:  Ltp: 46646.95 greater than previous candle high 46644.55 Closing previous put trade and opening call trade BANKNIFTY2422146600CE @ 409.4
+19/02/2024 13:14:15 Initial Buy taken previous candle green  open =  22159.6 , close=22162.05 @ NIFTY @ 22165.35 @ CE contract =NIFTY2422222150CE @ price 158.85 @ previous candle time 2024-02-19 13:13:00
+ 19/02/2024 13:14:23 Initial Buy taken previous candle red ,open =  46668.25 , close=46657.1 @ BANKNIFTY @ 46663.6 @ PE contract =BANKNIFTY2422146700PE @ price 312 @ previous candle time 2024-02-19 13:13:00 
+19/02/2024 13:16:00 Initial Buy taken previous candle green  open =  22165.8 , close=22169.45 @ NIFTY @ 22169.45 @ CE contract =NIFTY2422222150CE @ price 161.25 @ previous candle time 2024-02-19 13:15:00
+19/02/2024 13:16:07 Initial Buy taken previous candle green  open =  46670.2 , close=46670.6 @ BANKNIFTY @ 46661.1 @ CE contract =BANKNIFTY2422146700CE @ price 371.15 @ previous candle time 2024-02-19 13:15:00
+ 19/02/2024 13:16:59exit previous trade NIFTY2422222150CE
+ 19/02/2024 13:16:59 Initial Buy taken previous candle red ,open =  22168.65 , close=22167.7 @ NIFTY @ 22167.7 @ PE contract =NIFTY2422222150PE @ price 119.2 @ previous candle time 2024-02-19 13:16:00 
+19/02/2024 13:17:32 BANKNIFTY: Ltp less than previous candle low : 46661.1 Closing previous call trade and opening put trade BANKNIFTY2422146700PE @ 316.95
+19/02/2024 13:17:50 BANKNIFTY:  Ltp: 46673.85 greater than previous candle high 46673.5 Closing previous put trade and opening call trade BANKNIFTY2422146700CE @ 373.85
+19/02/2024 13:18:07 BANKNIFTY: Ltp less than previous candle low : 46660.8 Closing previous call trade and opening put trade BANKNIFTY2422146700PE @ 317.45
+ 19/02/2024 13:20:00exit previous trade NIFTY2422222150PE
+19/02/2024 13:20:00 Initial Buy taken previous candle green  open =  22158.1 , close=22161.0 @ NIFTY @ 22161 @ CE contract =NIFTY2422222150CE @ price 156 @ previous candle time 2024-02-19 13:19:00
+ 19/02/2024 13:20:07exit previous trade BANKNIFTY2422146700PE
+19/02/2024 13:20:07 Initial Buy taken previous candle green  open =  46646.4 , close=46651.0 @ BANKNIFTY @ 46651.95 @ CE contract =BANKNIFTY2422146700CE @ price 353.5 @ previous candle time 2024-02-19 13:19:00
+19/02/2024 13:20:25 BANKNIFTY: Ltp less than previous candle low : 46644.4 Closing previous call trade and opening put trade BANKNIFTY2422146600PE @ 284
+ 19/02/2024 13:21:00exit previous trade NIFTY2422222150CE
+ 19/02/2024 13:21:00 Initial Buy taken previous candle red ,open =  22161.05 , close=22160.55 @ NIFTY @ 22160.55 @ PE contract =NIFTY2422222150PE @ price 122.85 @ previous candle time 2024-02-19 13:20:00 
+19/02/2024 13:22:21 NIFTY:  Ltp: 22161.1 greater than previous candle high 22161.0 Closing previous put trade and opening call trade NIFTY2422222150CE @ 154.65
+ 19/02/2024 13:23:07exit previous trade BANKNIFTY2422146600PE
+19/02/2024 13:23:07 Initial Buy taken previous candle green  open =  46639.8 , close=46647.65 @ BANKNIFTY @ 46649.9 @ CE contract =BANKNIFTY2422146600CE @ price 405.4 @ previous candle time 2024-02-19 13:22:00
+19/02/2024 13:23:37 BANKNIFTY: Ltp less than previous candle low : 46639.8 Closing previous call trade and opening put trade BANKNIFTY2422146600PE @ 290.65
+19/02/2024 13:23:37 NIFTY: Ltp less than previous candle low : 22158.5 Closing previous call trade and opening put trade NIFTY2422222150PE @ 125.5
+19/02/2024 13:24:55 NIFTY:  Ltp: 22163.8 greater than previous candle high 22163.3 Closing previous put trade and opening call trade NIFTY2422222150CE @ 153.45
+19/02/2024 13:24:57 BANKNIFTY:  Ltp: 46652.65 greater than previous candle high 46650.95 Closing previous put trade and opening call trade BANKNIFTY2422146700CE @ 349.4
+ 19/02/2024 13:25:59exit previous trade NIFTY2422222150CE
+ 19/02/2024 13:25:59 Initial Buy taken previous candle red ,open =  22163.1 , close=22159.65 @ NIFTY @ 22159.65 @ PE contract =NIFTY2422222150PE @ price 125.85 @ previous candle time 2024-02-19 13:25:00 
+ 19/02/2024 13:26:07exit previous trade BANKNIFTY2422146700CE
+ 19/02/2024 13:26:07 Initial Buy taken previous candle red ,open =  46653.1 , close=46641.4 @ BANKNIFTY @ 46642.65 @ PE contract =BANKNIFTY2422146600PE @ price 288.75 @ previous candle time 2024-02-19 13:25:00 
+ 19/02/2024 13:30:00exit previous trade NIFTY2422222150PE
+19/02/2024 13:30:00 Initial Buy taken previous candle green  open =  22142.2 , close=22142.95 @ NIFTY @ 22143.25 @ CE contract =NIFTY2422222150CE @ price 144.4 @ previous candle time 2024-02-19 13:29:00
+ 19/02/2024 13:31:00exit previous trade NIFTY2422222150CE
+ 19/02/2024 13:31:00 Initial Buy taken previous candle red ,open =  22143.25 , close=22139.15 @ NIFTY @ 22139.35 @ PE contract =NIFTY2422222150PE @ price 134.6 @ previous candle time 2024-02-19 13:30:00 
+ 19/02/2024 13:38:00exit previous trade NIFTY2422222150PE
+19/02/2024 13:38:00 Initial Buy taken previous candle green  open =  22140.35 , close=22141.1 @ NIFTY @ 22141.1 @ CE contract =NIFTY2422222150CE @ price 142.55 @ previous candle time 2024-02-19 13:37:00
+ 19/02/2024 13:38:07exit previous trade BANKNIFTY2422146600PE
+19/02/2024 13:38:07 Initial Buy taken previous candle green  open =  46593.2 , close=46598.35 @ BANKNIFTY @ 46588.8 @ CE contract =BANKNIFTY2422146600CE @ price 366 @ previous candle time 2024-02-19 13:37:00
+19/02/2024 13:38:14 BANKNIFTY: Ltp less than previous candle low : 46588.15 Closing previous call trade and opening put trade BANKNIFTY2422146600PE @ 312.5
+19/02/2024 13:38:16 NIFTY: Ltp less than previous candle low : 22139.3 Closing previous call trade and opening put trade NIFTY2422222150PE @ 132.35
+19/02/2024 13:38:34 NIFTY:  Ltp: 22143.05 greater than previous candle high 22142.75 Closing previous put trade and opening call trade NIFTY2422222150CE @ 145.05
+19/02/2024 13:39:13 BANKNIFTY:  Ltp: 46600.05 greater than previous candle high 46598.75 Closing previous put trade and opening call trade BANKNIFTY2422146600CE @ 378.15
+19/02/2024 13:40:36 NIFTY: Ltp less than previous candle low : 22142.9 Closing previous call trade and opening put trade NIFTY2422222150PE @ 129.75
+19/02/2024 13:41:10 NIFTY:  Ltp: 22149.65 greater than previous candle high 22148.95 Closing previous put trade and opening call trade NIFTY2422222150CE @ 150.3
+ 19/02/2024 13:44:00exit previous trade NIFTY2422222150CE
+ 19/02/2024 13:44:00 Initial Buy taken previous candle red ,open =  22155.7 , close=22151.85 @ NIFTY @ 22152.55 @ PE contract =NIFTY2422222150PE @ price 126 @ previous candle time 2024-02-19 13:43:00 
+ 19/02/2024 13:45:00exit previous trade BANKNIFTY2422146600CE
+ 19/02/2024 13:45:00 Initial Buy taken previous candle red ,open =  46624.55 , close=46614.95 @ BANKNIFTY @ 46626.45 @ PE contract =BANKNIFTY2422146600PE @ price 289.2 @ previous candle time 2024-02-19 13:43:00 
+19/02/2024 13:45:00 BANKNIFTY:  Ltp: 46626.45 greater than previous candle high 46624.55 Closing previous put trade and opening call trade BANKNIFTY2422146600CE @ 389.45
+ 19/02/2024 13:45:01exit previous trade NIFTY2422222150PE
+19/02/2024 13:45:01 Initial Buy taken previous candle green  open =  22152.55 , close=22155.3 @ NIFTY @ 22154.35 @ CE contract =NIFTY2422222150CE @ price 152 @ previous candle time 2024-02-19 13:44:00
+ 19/02/2024 13:48:00exit previous trade NIFTY2422222150CE
+ 19/02/2024 13:48:00 Initial Buy taken previous candle red ,open =  22160.3 , close=22159.8 @ NIFTY @ 22159.8 @ PE contract =NIFTY2422222150PE @ price 123.35 @ previous candle time 2024-02-19 13:47:00 
+ 19/02/2024 13:48:07exit previous trade BANKNIFTY2422146600CE
+ 19/02/2024 13:48:07 Initial Buy taken previous candle red ,open =  46641.2 , close=46639.15 @ BANKNIFTY @ 46638.3 @ PE contract =BANKNIFTY2422146600PE @ price 283.7 @ previous candle time 2024-02-19 13:47:00 
+19/02/2024 13:48:14 BANKNIFTY:  Ltp: 46642.3 greater than previous candle high 46642.15 Closing previous put trade and opening call trade BANKNIFTY2422146600CE @ 395.65
+19/02/2024 13:48:52 NIFTY:  Ltp: 22161.75 greater than previous candle high 22160.65 Closing previous put trade and opening call trade NIFTY2422222150CE @ 156.25
+19/02/2024 13:49:42 BANKNIFTY: Ltp less than previous candle low : 46637.2 Closing previous call trade and opening put trade BANKNIFTY2422146600PE @ 288.45
+ 19/02/2024 13:50:00exit previous trade NIFTY2422222150CE
+ 19/02/2024 13:50:00 Initial Buy taken previous candle red ,open =  22161.85 , close=22160.15 @ NIFTY @ 22160.55 @ PE contract =NIFTY2422222150PE @ price 121.6 @ previous candle time 2024-02-19 13:49:00 
+19/02/2024 13:50:10 NIFTY:  Ltp: 22163.5 greater than previous candle high 22163.3 Closing previous put trade and opening call trade NIFTY2422222150CE @ 157.6
+ 19/02/2024 13:51:07exit previous trade BANKNIFTY2422146600PE
+19/02/2024 13:51:07 Initial Buy taken previous candle green  open =  46630.05 , close=46640.2 @ BANKNIFTY @ 46639.55 @ CE contract =BANKNIFTY2422146600CE @ price 397.2 @ previous candle time 2024-02-19 13:50:00
+ 19/02/2024 13:53:07exit previous trade BANKNIFTY2422146600CE
+ 19/02/2024 13:53:07 Initial Buy taken previous candle red ,open =  46646.5 , close=46646.05 @ BANKNIFTY @ 46653.45 @ PE contract =BANKNIFTY2422146700PE @ price 314.35 @ previous candle time 2024-02-19 13:52:00 
+19/02/2024 13:53:07 BANKNIFTY:  Ltp: 46653.45 greater than previous candle high 46649.85 Closing previous put trade and opening call trade BANKNIFTY2422146700CE @ 351.5
+ 19/02/2024 13:54:00exit previous trade NIFTY2422222150CE
+ 19/02/2024 13:54:00 Initial Buy taken previous candle red ,open =  22171.0 , close=22168.85 @ NIFTY @ 22168.9 @ PE contract =NIFTY2422222150PE @ price 119.9 @ previous candle time 2024-02-19 13:53:00 
+19/02/2024 13:54:24 BANKNIFTY: Ltp less than previous candle low : 46637.45 Closing previous call trade and opening put trade BANKNIFTY2422146600PE @ 283.5
+19/02/2024 13:55:07 BANKNIFTY:  Ltp: 46653.05 greater than previous candle high 46649.2 Closing previous put trade and opening call trade BANKNIFTY2422146700CE @ 348.9
+ 19/02/2024 13:57:00exit previous trade NIFTY2422222150PE
+19/02/2024 13:57:00 Initial Buy taken previous candle green  open =  22162.65 , close=22164.85 @ NIFTY @ 22164.5 @ CE contract =NIFTY2422222150CE @ price 157 @ previous candle time 2024-02-19 13:56:00
+ 19/02/2024 13:58:00exit previous trade NIFTY2422222150CE
+ 19/02/2024 13:58:00 Initial Buy taken previous candle red ,open =  22164.5 , close=22164.05 @ NIFTY @ 22164.05 @ PE contract =NIFTY2422222150PE @ price 117.35 @ previous candle time 2024-02-19 13:57:00 
+ 19/02/2024 13:58:07exit previous trade BANKNIFTY2422146700CE
+ 19/02/2024 13:58:07 Initial Buy taken previous candle red ,open =  46660.45 , close=46659.85 @ BANKNIFTY @ 46675.75 @ PE contract =BANKNIFTY2422146700PE @ price 304.95 @ previous candle time 2024-02-19 13:57:00 
+19/02/2024 13:58:07 BANKNIFTY:  Ltp: 46675.75 greater than previous candle high 46668.15 Closing previous put trade and opening call trade BANKNIFTY2422146700CE @ 365.5
+19/02/2024 13:58:09 NIFTY:  Ltp: 22167.6 greater than previous candle high 22166.1 Closing previous put trade and opening call trade NIFTY2422222150CE @ 162
+19/02/2024 13:58:45 NIFTY: Ltp less than previous candle low : 22162.5 Closing previous call trade and opening put trade NIFTY2422222150PE @ 121.25
+ 19/02/2024 14:00:00exit previous trade NIFTY2422222150PE
+19/02/2024 14:00:00 Initial Buy taken previous candle green  open =  22159.95 , close=22161.85 @ NIFTY @ 22161.85 @ CE contract =NIFTY2422222150CE @ price 156.6 @ previous candle time 2024-02-19 13:59:00
+19/02/2024 14:00:26 NIFTY: Ltp less than previous candle low : 22159.85 Closing previous call trade and opening put trade NIFTY2422222150PE @ 120.2
+ 19/02/2024 14:02:00exit previous trade BANKNIFTY2422146700CE
+ 19/02/2024 14:02:00 Initial Buy taken previous candle red ,open =  46674.75 , close=46674.4 @ BANKNIFTY @ 46675 @ PE contract =BANKNIFTY2422146700PE @ price 312.5 @ previous candle time 2024-02-19 14:00:00 
+ 19/02/2024 14:02:00exit previous trade NIFTY2422222150PE
+19/02/2024 14:02:00 Initial Buy taken previous candle green  open =  22157.7 , close=22158.55 @ NIFTY @ 22158.2 @ CE contract =NIFTY2422222150CE @ price 155.2 @ previous candle time 2024-02-19 14:01:00
+ 19/02/2024 14:04:00exit previous trade NIFTY2422222150CE
+ 19/02/2024 14:04:00 Initial Buy taken previous candle red ,open =  22163.4 , close=22161.25 @ NIFTY @ 22161.25 @ PE contract =NIFTY2422222150PE @ price 120.25 @ previous candle time 2024-02-19 14:03:00 
+19/02/2024 14:04:40 NIFTY:  Ltp: 22164.85 greater than previous candle high 22164.5 Closing previous put trade and opening call trade NIFTY2422222150CE @ 157.95
+19/02/2024 14:04:48 BANKNIFTY:  Ltp: 46685.4 greater than previous candle high 46684.4 Closing previous put trade and opening call trade BANKNIFTY2422146700CE @ 366.5
+ 19/02/2024 14:06:00exit previous trade NIFTY2422222150CE
+ 19/02/2024 14:06:00 Initial Buy taken previous candle red ,open =  22167.0 , close=22166.6 @ NIFTY @ 22166.85 @ PE contract =NIFTY2422222150PE @ price 118.6 @ previous candle time 2024-02-19 14:05:00 
+19/02/2024 14:06:11 NIFTY:  Ltp: 22167.7 greater than previous candle high 22167.55 Closing previous put trade and opening call trade NIFTY2422222150CE @ 158.6
+ 19/02/2024 14:20:00 Initial Buy taken previous candle red ,open =  22167.25 , close=22162.85 @ NIFTY @ 22162.85 @ PE contract =NIFTY2422222150PE @ price 118.4 @ previous candle time 2024-02-19 14:19:00 
+ 19/02/2024 14:20:08 Initial Buy taken previous candle red ,open =  46641.25 , close=46631.55 @ BANKNIFTY @ 46633.15 @ PE contract =BANKNIFTY2422146600PE @ price 290.45 @ previous candle time 2024-02-19 14:19:00 
+19/02/2024 14:20:27 NIFTY:  Ltp: 22168.85 greater than previous candle high 22167.4 Closing previous put trade and opening call trade NIFTY2422222150CE @ 159.55
+ 19/02/2024 14:21:07exit previous trade BANKNIFTY2422146600PE
+19/02/2024 14:21:07 Initial Buy taken previous candle green  open =  46633.5 , close=46634.8 @ BANKNIFTY @ 46639.15 @ CE contract =BANKNIFTY2422146600CE @ price 377.85 @ previous candle time 2024-02-19 14:20:00
+ 19/02/2024 14:22:00exit previous trade NIFTY2422222150CE
+ 19/02/2024 14:22:00 Initial Buy taken previous candle red ,open =  22168.35 , close=22167.6 @ NIFTY @ 22167.6 @ PE contract =NIFTY2422222150PE @ price 115.25 @ previous candle time 2024-02-19 14:21:00 
+19/02/2024 14:22:14 NIFTY:  Ltp: 22170.85 greater than previous candle high 22169.55 Closing previous put trade and opening call trade NIFTY2422222150CE @ 161.7
+19/02/2024 14:25:00 Initial Buy taken previous candle green  open =  22176.7 , close=22182.1 @ NIFTY @ 22181.45 @ CE contract =NIFTY2422222200CE @ price 141.55 @ previous candle time 2024-02-19 14:24:00
+19/02/2024 14:25:08 Initial Buy taken previous candle green  open =  46665.8 , close=46670.8 @ BANKNIFTY @ 46666.95 @ CE contract =BANKNIFTY2422146700CE @ price 341.8 @ previous candle time 2024-02-19 14:24:00
+19/02/2024 14:27:13 BANKNIFTY: Ltp less than previous candle low : 46662.65 Closing previous call trade and opening put trade BANKNIFTY2422146700PE @ 314.9
+19/02/2024 14:27:19 NIFTY: Ltp less than previous candle low : 22183.15 Closing previous call trade and opening put trade NIFTY2422222200PE @ 130.4
+19/02/2024 14:28:34 BANKNIFTY:  Ltp: 46672.95 greater than previous candle high 46672.55 Closing previous put trade and opening call trade BANKNIFTY2422146700CE @ 343.15
+ 19/02/2024 14:29:00exit previous trade BANKNIFTY2422146700CE
+ 19/02/2024 14:29:00 Initial Buy taken previous candle red ,open =  46669.15 , close=46665.9 @ BANKNIFTY @ 46685.35 @ PE contract =BANKNIFTY2422146700PE @ price 303.45 @ previous candle time 2024-02-19 14:27:00 
+19/02/2024 14:29:00 BANKNIFTY:  Ltp: 46685.35 greater than previous candle high 46671.25 Closing previous put trade and opening call trade BANKNIFTY2422146700CE @ 351.35
+ 19/02/2024 14:29:02exit previous trade NIFTY2422222200PE
+19/02/2024 14:29:02 Initial Buy taken previous candle green  open =  22183.15 , close=22183.9 @ NIFTY @ 22183.35 @ CE contract =NIFTY2422222200CE @ price 141.15 @ previous candle time 2024-02-19 14:28:00
+ 19/02/2024 14:30:00exit previous trade NIFTY2422222200CE
+ 19/02/2024 14:30:00 Initial Buy taken previous candle red ,open =  22183.2 , close=22182.15 @ NIFTY @ 22183.25 @ PE contract =NIFTY2422222200PE @ price 131.75 @ previous candle time 2024-02-19 14:29:00 
+19/02/2024 14:30:59 BANKNIFTY: Ltp less than previous candle low : 46676.05 Closing previous call trade and opening put trade BANKNIFTY2422146700PE @ 313.65
+ 19/02/2024 14:32:07exit previous trade BANKNIFTY2422146700PE
+19/02/2024 14:32:07 Initial Buy taken previous candle green  open =  46672.7 , close=46676.35 @ BANKNIFTY @ 46677.7 @ CE contract =BANKNIFTY2422146700CE @ price 343.4 @ previous candle time 2024-02-19 14:31:00
+19/02/2024 14:33:07 BANKNIFTY: Ltp less than previous candle low : 46673.95 Closing previous call trade and opening put trade BANKNIFTY2422146700PE @ 322.6
+ 19/02/2024 14:36:00exit previous trade NIFTY2422222200PE
+19/02/2024 14:36:00 Initial Buy taken previous candle green  open =  22170.95 , close=22174.8 @ NIFTY @ 22173.95 @ CE contract =NIFTY2422222150CE @ price 163.9 @ previous candle time 2024-02-19 14:35:00
+19/02/2024 14:37:07 NIFTY: Ltp less than previous candle low : 22172.8 Closing previous call trade and opening put trade NIFTY2422222150PE @ 114.7
+ 19/02/2024 14:39:00exit previous trade NIFTY2422222150PE
+19/02/2024 14:39:00 Initial Buy taken previous candle green  open =  22162.7 , close=22165.25 @ NIFTY @ 22165.25 @ CE contract =NIFTY2422222150CE @ price 156.65 @ previous candle time 2024-02-19 14:38:00
+ 19/02/2024 14:39:59exit previous trade BANKNIFTY2422146700PE
+19/02/2024 14:39:59 Initial Buy taken previous candle green  open =  46602.15 , close=46629.2 @ BANKNIFTY @ 46630.75 @ CE contract =BANKNIFTY2422146600CE @ price 357.55 @ previous candle time 2024-02-19 14:38:00
+ 19/02/2024 14:40:01exit previous trade NIFTY2422222150CE
+ 19/02/2024 14:40:01 Initial Buy taken previous candle red ,open =  22165.95 , close=22164.85 @ NIFTY @ 22163.35 @ PE contract =NIFTY2422222150PE @ price 116.8 @ previous candle time 2024-02-19 14:39:00 
+19/02/2024 14:40:59 NIFTY:  Ltp: 22166.4 greater than previous candle high 22166.3 Closing previous put trade and opening call trade NIFTY2422222150CE @ 156.3
+19/02/2024 14:42:33 NIFTY: Ltp less than previous candle low : 22164.4 Closing previous call trade and opening put trade NIFTY2422222150PE @ 116.3
+19/02/2024 14:43:18 NIFTY:  Ltp: 22168.75 greater than previous candle high 22168.6 Closing previous put trade and opening call trade NIFTY2422222150CE @ 158.7
+ 19/02/2024 14:44:00exit previous trade NIFTY2422222150CE
+ 19/02/2024 14:44:00 Initial Buy taken previous candle red ,open =  22165.6 , close=22164.3 @ NIFTY @ 22164.3 @ PE contract =NIFTY2422222150PE @ price 114.7 @ previous candle time 2024-02-19 14:43:00 
+ 19/02/2024 14:44:08exit previous trade BANKNIFTY2422146600CE
+ 19/02/2024 14:44:08 Initial Buy taken previous candle red ,open =  46649.6 , close=46646.6 @ BANKNIFTY @ 46643.75 @ PE contract =BANKNIFTY2422146600PE @ price 281.4 @ previous candle time 2024-02-19 14:43:00 
+19/02/2024 14:47:07 Initial Buy taken previous candle green  open =  22157.9 , close=22158.45 @ NIFTY @ 22157.8 @ CE contract =NIFTY2422222150CE @ price 150.5 @ previous candle time 2024-02-19 14:46:00
+ 19/02/2024 14:47:13 Initial Buy taken previous candle red ,open =  46641.7 , close=46627.25 @ BANKNIFTY @ 46624.75 @ PE contract =BANKNIFTY2422146600PE @ price 297.6 @ previous candle time 2024-02-19 14:46:00 
+19/02/2024 14:48:00 Initial Buy taken previous candle green  open =  22157.9 , close=22158.45 @ NIFTY @ 22157.35 @ CE contract =NIFTY2422222150CE @ price 149.75 @ previous candle time 2024-02-19 14:46:00
+ 19/02/2024 14:48:06 Initial Buy taken previous candle red ,open =  46627.3 , close=46616.45 @ BANKNIFTY @ 46612.75 @ PE contract =BANKNIFTY2422146600PE @ price 304 @ previous candle time 2024-02-19 14:47:00 
+19/02/2024 14:48:14 NIFTY: Ltp less than previous candle low : 22155.6 Closing previous call trade and opening put trade NIFTY2422222150PE @ 121.75
+19/02/2024 14:50:00 Initial Buy taken previous candle green  open =  22144.6 , close=22145.25 @ NIFTY @ 22145.25 @ CE contract =NIFTY2422222150CE @ price 141.55 @ previous candle time 2024-02-19 14:49:00
+19/02/2024 14:50:06 Initial Buy taken previous candle green  open =  46580.6 , close=46603.75 @ BANKNIFTY @ 46592.25 @ CE contract =BANKNIFTY2422146600CE @ price 333.4 @ previous candle time 2024-02-19 14:49:00
+19/02/2024 14:50:13 NIFTY: Ltp less than previous candle low : 22140.95 Closing previous call trade and opening put trade NIFTY2422222150PE @ 127.85
+ 19/02/2024 14:51:06exit previous trade BANKNIFTY2422146600CE
+ 19/02/2024 14:51:06 Initial Buy taken previous candle red ,open =  46603.7 , close=46578.65 @ BANKNIFTY @ 46576.8 @ PE contract =BANKNIFTY2422146600PE @ price 315.4 @ previous candle time 2024-02-19 14:50:00 
+ 19/02/2024 14:52:00 Initial Buy taken previous candle red ,open =  22144.65 , close=22139.3 @ NIFTY @ 22144.65 @ PE contract =NIFTY2422222150PE @ price 123.85 @ previous candle time 2024-02-19 14:50:00 
+ 19/02/2024 14:52:03 Initial Buy taken previous candle red ,open =  46603.7 , close=46578.65 @ BANKNIFTY @ 46574.7 @ PE contract =BANKNIFTY2422146600PE @ price 313.9 @ previous candle time 2024-02-19 14:50:00 
+19/02/2024 14:52:04 NIFTY:  Ltp: 22145.65 greater than previous candle high 22144.65 Closing previous put trade and opening call trade NIFTY2422222150CE @ 145.8
+19/02/2024 14:53:03 BANKNIFTY:  Ltp: 46602.05 greater than previous candle high 46580.65 Closing previous put trade and opening call trade BANKNIFTY2422146600CE @ 337.15
+ 19/02/2024 14:57:00 Initial Buy taken previous candle red ,open =  22152.05 , close=22148.95 @ NIFTY @ 22142.45 @ PE contract =NIFTY2422222150PE @ price 130.5 @ previous candle time 2024-02-19 14:55:00 
+ 19/02/2024 14:57:03 Initial Buy taken previous candle red ,open =  46579.7 , close=46570.65 @ BANKNIFTY @ 46570.05 @ PE contract =BANKNIFTY2422146600PE @ price 320 @ previous candle time 2024-02-19 14:55:00 
+ 19/02/2024 14:58:03exit previous trade BANKNIFTY2422146600PE
+19/02/2024 14:58:03 Initial Buy taken previous candle green  open =  46568.8 , close=46574.25 @ BANKNIFTY @ 46548.65 @ CE contract =BANKNIFTY2422146500CE @ price 356.05 @ previous candle time 2024-02-19 14:56:00
+19/02/2024 14:58:03 BANKNIFTY: Ltp less than previous candle low : 46555.85 Closing previous call trade and opening put trade BANKNIFTY2422146500PE @ 286.75
+ 19/02/2024 15:00:00 Initial Buy taken previous candle red ,open =  22128.3 , close=22127.55 @ NIFTY @ 22129 @ PE contract =NIFTY2422222150PE @ price 133.1 @ previous candle time 2024-02-19 14:58:00 
+ 19/02/2024 15:00:03 Initial Buy taken previous candle red ,open =  46554.6 , close=46548.15 @ BANKNIFTY @ 46565.1 @ PE contract =BANKNIFTY2422146600PE @ price 326.9 @ previous candle time 2024-02-19 14:58:00 
+19/02/2024 15:00:04 NIFTY:  Ltp: 22134.75 greater than previous candle high 22130.55 Closing previous put trade and opening call trade NIFTY2422222150CE @ 135.15
+19/02/2024 15:00:58 BANKNIFTY:  Ltp: 46568.8 greater than previous candle high 46568.15 Closing previous put trade and opening call trade BANKNIFTY2422146600CE @ 311.55
+19/02/2024 15:02:12 Initial Buy taken previous candle green  open =  22133.85 , close=22151.45 @ NIFTY @ 22152.95 @ CE contract =NIFTY2422222150CE @ price 141.6 @ previous candle time 2024-02-19 15:01:00
+19/02/2024 15:02:19 Initial Buy taken previous candle green  open =  46568.95 , close=46598.3 @ BANKNIFTY @ 46601.95 @ CE contract =BANKNIFTY2422146600CE @ price 333.1 @ previous candle time 2024-02-19 15:01:00
+ 19/02/2024 15:03:00exit previous trade NIFTY2422222150CE
+ 19/02/2024 15:03:00 Initial Buy taken previous candle red ,open =  22151.75 , close=22151.1 @ NIFTY @ 22151.55 @ PE contract =NIFTY2422222150PE @ price 129.75 @ previous candle time 2024-02-19 15:02:00 
+19/02/2024 15:03:11 BANKNIFTY: Ltp less than previous candle low : 46565.65 Closing previous call trade and opening put trade BANKNIFTY2422146600PE @ 321.55
+20/02/2024 11:25:00 Initial Buy taken previous candle green  open =  22123.05 , close=22138.1 @ NIFTY @ 22125.1 @ CE contract =NIFTY2422222150CE @ price 97.75 @ previous candle time 2024-02-20 11:30:00
+20/02/2024 11:39:51 Initial Buy taken previous candle green  open =  46913.6 , close=46942.4 @ BANKNIFTY @ 46840.45 @ CE contract =BANKNIFTY2422146800CE @ price 308.8 @ previous candle time 2024-02-20 11:30:00
+20/02/2024 11:39:51 BANKNIFTY: Ltp less than previous candle low : 46908.3 Closing previous call trade and opening put trade BANKNIFTY2422146800PE @ 241.15
+20/02/2024 11:39:52 NIFTY: Ltp less than previous candle low : 22121.7 Closing previous call trade and opening put trade NIFTY2422222100PE @ 119.75
+ 20/02/2024 11:50:00exit previous trade NIFTY2422222100PE
+20/02/2024 11:50:00 Initial Buy taken previous candle green  open =  22112.9 , close=22120.25 @ NIFTY @ 22125.5 @ CE contract =NIFTY2422222150CE @ price 103.15 @ previous candle time 2024-02-20 11:40:00
+ 20/02/2024 11:50:06exit previous trade BANKNIFTY2422146800PE
+20/02/2024 11:50:06 Initial Buy taken previous candle green  open =  46850.8 , close=46860.95 @ BANKNIFTY @ 46876.15 @ CE contract =BANKNIFTY2422146900CE @ price 260.05 @ previous candle time 2024-02-20 11:40:00
+20/02/2024 11:54:03 Initial Buy taken previous candle green  open =  22119.55 , close=22125.5 @ NIFTY @ 22126.7 @ CE contract =NIFTY2422222150CE @ price 105.85 @ previous candle time 2024-02-20 11:45:00
+20/02/2024 11:54:10 Initial Buy taken previous candle green  open =  46855.95 , close=46870.7 @ BANKNIFTY @ 46893.6 @ CE contract =BANKNIFTY2422146900CE @ price 278.6 @ previous candle time 2024-02-20 11:45:00
+20/02/2024 12:00:00 Initial Buy taken previous candle green  open =  22125.15 , close=22126.7 @ NIFTY @ 22140.3 @ CE contract =NIFTY2422222150CE @ price 115.4 @ previous candle time 2024-02-20 11:50:00
+20/02/2024 12:00:07 Initial Buy taken previous candle green  open =  46890.9 , close=46895.4 @ BANKNIFTY @ 46895.75 @ CE contract =BANKNIFTY2422146900CE @ price 268.45 @ previous candle time 2024-02-20 11:55:00
+20/02/2024 12:00:47 Initial Buy taken previous candle green  open =  22126.95 , close=22140.3 @ NIFTY @ 22143 @ CE contract =NIFTY2422222150CE @ price 117.7 @ previous candle time 2024-02-20 11:55:00
+20/02/2024 12:00:53 Initial Buy taken previous candle green  open =  46890.9 , close=46895.4 @ BANKNIFTY @ 46906.85 @ CE contract =BANKNIFTY2422146900CE @ price 277.9 @ previous candle time 2024-02-20 11:55:00
+20/02/2024 12:06:43 Initial Buy taken previous candle green  open =  22139.2 , close=22161.6 @ NIFTY @ 22161.3 @ CE contract =NIFTY2422222150CE @ price 126.4 @ previous candle time 2024-02-20 12:00:00
+20/02/2024 12:06:51 Initial Buy taken previous candle green  open =  46891.2 , close=46939.95 @ BANKNIFTY @ 46950.5 @ CE contract =BANKNIFTY2422147000CE @ price 249.4 @ previous candle time 2024-02-20 12:00:00
+ 20/02/2024 12:15:00exit previous trade NIFTY2422222150CE
+ 20/02/2024 12:15:00 Initial Buy taken previous candle red ,open =  22173.15 , close=22159.8 @ NIFTY @ 22159.8 @ PE contract =NIFTY2422222150PE @ price 110 @ previous candle time 2024-02-20 12:10:00 
+20/02/2024 12:16:08 BANKNIFTY: Ltp less than previous candle low : 46917.85 Closing previous call trade and opening put trade BANKNIFTY2422146900PE @ 238.2

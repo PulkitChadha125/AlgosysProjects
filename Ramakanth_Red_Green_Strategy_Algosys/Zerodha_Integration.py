@@ -60,7 +60,7 @@ def combinedltp_spot():
     return res
 
 def get_ltp_option(symbol):
-
+    print(symbol)
     res = kite.quote(f"NFO:{symbol}")[f"NFO:{symbol}"]
     # print(res)
     first_buy_price = res['depth']['buy'][0]['price']
@@ -75,6 +75,10 @@ def get_ltp_option(symbol):
 
 def get_option_symbol (sym,exp,strike,type):
     global kite
+    print("sym: ", sym)
+    print("exp: ", exp)
+    print("strike: ", strike)
+    print("type: ", type)
     df = pd.read_csv('Instruments.csv')
     symbol = None  # Initialize the instrument token as None
 
@@ -88,7 +92,7 @@ def get_option_symbol (sym,exp,strike,type):
         if not selected_row.empty:
             symbol = selected_row['tradingsymbol'].values[0]
         else:
-            print("Instrument token not found. Retrying...")
+            print("Symbol  not found. Retrying...")
 
     # print("instrument_token: ", instrument_token)
 
@@ -109,6 +113,7 @@ def get_historical_data(Token, timeframe,sym):
     cols = ['open', 'high', 'low', 'close', 'volume']
     price_data = price_data[cols]
     price_data.set_index(date_column, inplace=True)
+
     return price_data
 
 
