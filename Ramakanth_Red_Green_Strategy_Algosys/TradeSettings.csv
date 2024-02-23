@@ -1,3 +1,2 @@
-Symbol,SymbolType,Timeframe,Quantity,TradeExpiery,Expiery Type,OPTION CONTRACT TYPE,strike distance,Target,Stoploss,TSL_AFTER,TSL_BY,USETSL,MaxProfitDay,MaxLossDay,Sync
-NIFTY,SPOT,5minute,50,22-02-2024,WEEKLY,ATM,100,,,,,TRUE,,,TRUE
-BANKNIFTY,SPOT,5minute,15,21-02-2024,WEEKLY,ATM,100,,,,,TRUE,,,FALSE
+Symbol,SymbolType,Timeframe,Quantity,TradeExpiery,Expiery Type,OPTION CONTRACT TYPE,strike distance,Target,Stoploss,TSL_AFTER,TSL_BY,USETSL,Sync
+NIFTY,SPOT,5minute,50,29-02-2024,WEEKLY,ATM,100,5,5,,,TRUE,TRUE

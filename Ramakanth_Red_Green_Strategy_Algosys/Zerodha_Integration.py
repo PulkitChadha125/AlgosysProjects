@@ -60,7 +60,6 @@ def combinedltp_spot():
     return res
 
 def get_ltp_option(symbol):
-    print(symbol)
     res = kite.quote(f"NFO:{symbol}")[f"NFO:{symbol}"]
     # print(res)
     first_buy_price = res['depth']['buy'][0]['price']
