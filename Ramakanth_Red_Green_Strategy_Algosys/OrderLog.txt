@@ -1,9 +1,8 @@
-23/02/2024 14:38:27 NIFTY: Stoploss executed for  NIFTY24FEB22200PE @ 125.9
-23/02/2024 14:39:33 NIFTY:  Ltp: 22237.75 greater than previous candle high 22237.45 Closing previous put trade and opening call trade NIFTY24FEB22250CE @ 155.9@ stoploss : 155.9 , @ target 155.9
-23/02/2024 14:39:34 :Max profit acheived all position exit 
-23/02/2024 14:46:13 Initial Buy taken previous candle green  open =  22245.95 , close=22246.25 @ NIFTY @ 22239.55 @ CE contract =NIFTY24FEB22250CE @ price 157.05 @ previous candle time 2024-02-23 14:40:00@ stoploss : 152.05 , @ target 162.05
-23/02/2024 14:46:46 NIFTY: Ltp less than previous candle low : 22235.25 Closing previous call trade and opening put trade NIFTY24FEB22250PE @ 144.05@ stoploss : 139.05 , @ target 149.05
-23/02/2024 14:53:23 NIFTY: Target executed for  NIFTY24FEB22250PE @ 149.05
- 23/02/2024 14:55:00exit previous trade NIFTY24FEB22250PE
-23/02/2024 14:55:00 Initial Buy taken previous candle green  open =  22224.75 , close=22235.95 @ NIFTY @ 22235.95 @ CE contract =NIFTY24FEB22250CE @ price 153.4 @ previous candle time 2024-02-23 14:50:00@ stoploss : 153.4 , @ target 153.4
-23/02/2024 14:55:08 :Max profit acheived all position exit 
+ 27/02/2024 13:42:36 Initial Buy taken previous candle red ,open =  22204.55 , close=22191.4 @ NIFTY @ 22181.75 @ PE contract =NIFTY24FEB22200PE @ price 123.3 @ previous candle time 2024-02-27 13:15:00 @ stoploss : 103.3 , @ target 1123.3
+ 27/02/2024 13:43:19 Initial Buy taken previous candle red ,open =  22204.55 , close=22191.4 @ NIFTY @ 22178.2 @ PE contract =NIFTY24FEB22200PE @ price 123.4 @ previous candle time 2024-02-27 13:15:00 @ stoploss : 103.4 , @ target 1123.4
+ 27/02/2024 13:44:09 Initial Buy taken previous candle red ,open =  22204.55 , close=22191.4 @ NIFTY @ 22178.4 @ PE contract =NIFTY24FEB22200PE @ price 123.4 @ previous candle time 2024-02-27 13:15:00 @ stoploss : 103.4 , @ target 1123.4
+27/02/2024 13:44:34 NIFTY: Tsl executed for NIFTY24FEB22200PE new stoploss 125.55
+ 27/02/2024 14:00:50 Initial Buy taken previous candle red ,open =  22167.85 , close=22145.1 @ NIFTY @ 22135.15 @ PE contract =NIFTY24FEB22150PE @ price 112.65 @ previous candle time 2024-02-27 13:45:00 @ stoploss : 92.65 , @ target 1112.65
+ 27/02/2024 14:06:34 Initial Buy taken previous candle red ,open =  22167.85 , close=22145.1 @ NIFTY @ 22161.45 @ PE contract =NIFTY24FEB22150PE @ price 99.35 @ previous candle time 2024-02-27 13:45:00 @ stoploss : 79.35 , @ target 1099.35
+27/02/2024 14:08:12 NIFTY: Tsl executed for NIFTY24FEB22150PE new stoploss 100.65
+27/02/2024 14:08:23 NIFTY: Stoploss executed for  NIFTY24FEB22150PE @ 100.65

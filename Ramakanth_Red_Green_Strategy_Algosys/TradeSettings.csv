@@ -1,2 +1,2 @@
 Symbol,SymbolType,Timeframe,Quantity,TradeExpiery,Expiery Type,OPTION CONTRACT TYPE,strike distance,Target,Stoploss,TSL_AFTER,TSL_BY,USETSL,Sync
-NIFTY,SPOT,5minute,50,29-02-2024,WEEKLY,ATM,100,5,5,,,TRUE,TRUE
+NIFTY,SPOT,15minute,50,29-02-2024,WEEKLY,ATM,100,1000,20,3,2,TRUE,TRUE

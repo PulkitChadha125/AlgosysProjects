@@ -10,7 +10,6 @@
       <change beforePath="$PROJECT_DIR$/OrderLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OrderLog.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TradeSettings.csv" beforeDir="false" afterPath="$PROJECT_DIR$/TradeSettings.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZerodhaCredentials.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ZerodhaCredentials.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zerodha_Integration.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zerodha_Integration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

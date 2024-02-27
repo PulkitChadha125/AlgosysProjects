@@ -117,8 +117,8 @@ def get_user_settings():
                 "TradingEnable":True,
                 "TotalRunningPnlNifty":0,
                 "TotalRunningPnlBanknifty": 0,
-                "TargetExecuted":None,
-                "StoplossExecuted": None,
+                "TargetExecuted":False,
+                "StoplossExecuted": False,
 
             }
             result_dict[row['Symbol']] = symbol_dict
@@ -300,7 +300,7 @@ def main_strategy ():
                         params['secondrytradeselltime'] != time_value
                 ):
 
-                    if params['InitialTrade'] =="SHORT":
+                    if params['InitialTrade'] =="SHORT" and params["TargetExecuted"]==False and params["StoplossExecuted"]==False:
                         orderlog = f" {timestamp}exit previous trade {params['zerodha_symbol']}"
                         print(orderlog)
                         write_to_order_logs(orderlog)
@@ -368,6 +368,8 @@ def main_strategy ():
                               f"@ stoploss : {params['StoplossValue']} , @ target {params['TargetValue']}")
                     print(orderlog)
                     write_to_order_logs(orderlog)
+                    params["TargetExecuted"] =False
+                    params["StoplossExecuted"] =False
 
 
 
@@ -381,7 +383,7 @@ def main_strategy ():
                     # initial sell take PUT
 
 
-                    if params['InitialTrade'] =="BUY":
+                    if params['InitialTrade'] =="BUY" and params["TargetExecuted"]==False and params["StoplossExecuted"]==False:
                         orderlog = f" {timestamp}exit previous trade {params['zerodha_symbol']}"
                         print(orderlog)
                         write_to_order_logs(orderlog)
@@ -444,6 +446,8 @@ def main_strategy ():
                                 f"@ stoploss : {params['StoplossValue']} , @ target {params['TargetValue']}")
                     print(orderlog)
                     write_to_order_logs(orderlog)
+                    params["TargetExecuted"] = False
+                    params["StoplossExecuted"] = False
 
 
 
@@ -481,18 +485,18 @@ def main_strategy ():
                     params["InitialTrade"]="SHORT"
                     params['secondrytradebuytime']= None
                     params['secondrytradeselltime']= time_value
-
-                    exit_price=Zerodha_Integration.get_ltp_option(params['zerodha_symbol'])
-                    params["exit_price"] = exit_price
-                    params["pnl_current_trade_close"] = params["exit_price"] - params['buy_price']
-                    params["pnl_current_trade_close"] = params["pnl_current_trade_close"] * params["Quantity"]
-                    closed_pnl.append(params["pnl_current_trade_close"])
-                    if params['Symbol'] == "NIFTY":
-                        niftypnl.append(params["pnl_current_trade_close"])
-                    if params['Symbol'] == "BANKNIFTY":
-                        bankniftypnl.append(params["pnl_current_trade_close"])
-                    AlgosysIntegration.place_getalert(symbol=params['algosys_symbol'], direction="LX", price=exit_price,
-                                                      code=strategycode, qty=params["Quantity"])
+                    if params["TargetExecuted"]==False and params["StoplossExecuted"]==False:
+                        exit_price=Zerodha_Integration.get_ltp_option(params['zerodha_symbol'])
+                        params["exit_price"] = exit_price
+                        params["pnl_current_trade_close"] = params["exit_price"] - params['buy_price']
+                        params["pnl_current_trade_close"] = params["pnl_current_trade_close"] * params["Quantity"]
+                        closed_pnl.append(params["pnl_current_trade_close"])
+                        if params['Symbol'] == "NIFTY":
+                            niftypnl.append(params["pnl_current_trade_close"])
+                        if params['Symbol'] == "BANKNIFTY":
+                            bankniftypnl.append(params["pnl_current_trade_close"])
+                        AlgosysIntegration.place_getalert(symbol=params['algosys_symbol'], direction="LX", price=exit_price,
+                                                          code=strategycode, qty=params["Quantity"])
 
                     params['zerodha_symbol'] = putsymbol
                     params['algosys_symbol'] = "NSE:"+str(putsymbol)
@@ -512,6 +516,8 @@ def main_strategy ():
                                 f"@ stoploss : {params['StoplossValue']} , @ target {params['TargetValue']}")
                     print(orderlog)
                     write_to_order_logs(orderlog)
+                    params["TargetExecuted"] = False
+                    params["StoplossExecuted"] = False
 
 
                 if (
@@ -555,17 +561,19 @@ def main_strategy ():
                     params['secondrytradebuytime'] = time_value
                     params['secondrytradeselltime'] = None
 
-                    exit_price = Zerodha_Integration.get_ltp_option(params['zerodha_symbol'])
-                    params["exit_price"] = exit_price
-                    params["pnl_current_trade_close"] = params["exit_price"] - params['buy_price']
-                    params["pnl_current_trade_close"] = params["pnl_current_trade_close"] * params["Quantity"]
-                    closed_pnl.append(params["pnl_current_trade_close"])
-                    if params['Symbol'] == "NIFTY":
-                        niftypnl.append(params["pnl_current_trade_close"])
-                    if params['Symbol'] == "BANKNIFTY":
-                        bankniftypnl.append(params["pnl_current_trade_close"])
-                    AlgosysIntegration.place_getalert(symbol=params['algosys_symbol'], direction="LX", price=exit_price,
-                                                      code=strategycode, qty=params["Quantity"])
+                    if  params["TargetExecuted"]==False and params["StoplossExecuted"]==False:
+                        exit_price = Zerodha_Integration.get_ltp_option(params['zerodha_symbol'])
+                        params["exit_price"] = exit_price
+                        params["pnl_current_trade_close"] = params["exit_price"] - params['buy_price']
+                        params["pnl_current_trade_close"] = params["pnl_current_trade_close"] * params["Quantity"]
+                        closed_pnl.append(params["pnl_current_trade_close"])
+                        if params['Symbol'] == "NIFTY":
+                            niftypnl.append(params["pnl_current_trade_close"])
+                        if params['Symbol'] == "BANKNIFTY":
+                            bankniftypnl.append(params["pnl_current_trade_close"])
+                        AlgosysIntegration.place_getalert(symbol=params['algosys_symbol'], direction="LX", price=exit_price,
+                                                          code=strategycode, qty=params["Quantity"])
+
                     params['zerodha_symbol'] = callsymbol
                     params['algosys_symbol'] = "NSE:" + str(callsymbol)
                     buyprice_ce = Zerodha_Integration.get_ltp_option(params['zerodha_symbol'])
@@ -583,6 +591,8 @@ def main_strategy ():
                                 f"@ stoploss : {params['StoplossValue']} , @ target {params['TargetValue']}")
                     print(orderlog)
                     write_to_order_logs(orderlog)
+                    params["TargetExecuted"] = False
+                    params["StoplossExecuted"] = False
 
 
 
@@ -605,18 +615,21 @@ def main_strategy ():
                     closed_pnl.append(params["pnl_current_trade_close"])
                     if params['Symbol'] == "NIFTY":
                         niftypnl.append(params["pnl_current_trade_close"])
+                        orderlog = f"{timestamp} {params['Symbol']}: Target executed for  {params['zerodha_symbol']} @ {exit_price},pnl booked: {niftypnl}"
+
                     if params['Symbol'] == "BANKNIFTY":
                         bankniftypnl.append(params["pnl_current_trade_close"])
+                        orderlog = f"{timestamp} {params['Symbol']}: Target executed for  {params['zerodha_symbol']} @ {exit_price},pnl booked: {bankniftypnl}"
+
                     AlgosysIntegration.place_getalert(symbol=params['algosys_symbol'], direction="LX", price=exit_price,
                                                       code=strategycode, qty=params["Quantity"])
-                    orderlog=f"{timestamp} {params['Symbol']}: Target executed for  {params['zerodha_symbol']} @ {exit_price}"
                     print(orderlog)
                     write_to_order_logs(orderlog)
                     params['StoplossValue'] = 0
-                    params['Stoploss'] = 0
                     params['TargetValue'] = 0
-                    params['Target'] = 0
                     params['buy_price'] = 0
+                    params["TargetExecuted"] = True
+                    params["StoplossExecuted"] = False
 
 
 
@@ -633,18 +646,21 @@ def main_strategy ():
                     closed_pnl.append(params["pnl_current_trade_close"])
                     if params['Symbol'] == "NIFTY":
                         niftypnl.append(params["pnl_current_trade_close"])
+                        orderlog = f"{timestamp} {params['Symbol']}: Stoploss executed for  {params['zerodha_symbol']} @ {exit_price},pnl booked: {niftypnl}"
+
                     if params['Symbol'] == "BANKNIFTY":
                         bankniftypnl.append(params["pnl_current_trade_close"])
+                        orderlog = f"{timestamp} {params['Symbol']}: Stoploss executed for  {params['zerodha_symbol']} @ {exit_price},pnl booked: {bankniftypnl}"
+
                     AlgosysIntegration.place_getalert(symbol=params['algosys_symbol'], direction="LX", price=exit_price,
                                                       code=strategycode, qty=params["Quantity"])
-                    orderlog = f"{timestamp} {params['Symbol']}: Stoploss executed for  {params['zerodha_symbol']} @ {exit_price}"
                     print(orderlog)
                     write_to_order_logs(orderlog)
                     params['StoplossValue'] = 0
-                    params['Stoploss'] = 0
                     params['TargetValue'] = 0
-                    params['Target'] = 0
                     params['buy_price'] = 0
+                    params["TargetExecuted"] = False
+                    params["StoplossExecuted"] =True
 
 
                 if (
@@ -660,18 +676,21 @@ def main_strategy ():
                     closed_pnl.append(params["pnl_current_trade_close"])
                     if params['Symbol'] == "NIFTY":
                         niftypnl.append(params["pnl_current_trade_close"])
+                        orderlog = f"{timestamp} {params['Symbol']}: Target executed for  {params['zerodha_symbol']} @ {exit_price}, pnl booked : {niftypnl}"
+
                     if params['Symbol'] == "BANKNIFTY":
                         bankniftypnl.append(params["pnl_current_trade_close"])
+                        orderlog = f"{timestamp} {params['Symbol']}: Target executed for  {params['zerodha_symbol']} @ {exit_price}, pnl booked : {bankniftypnl}"
+
                     AlgosysIntegration.place_getalert(symbol=params['algosys_symbol'], direction="LX", price=exit_price,
                                                       code=strategycode, qty=params["Quantity"])
-                    orderlog = f"{timestamp} {params['Symbol']}: Target executed for  {params['zerodha_symbol']} @ {exit_price}"
                     print(orderlog)
                     write_to_order_logs(orderlog)
                     params['StoplossValue'] = 0
-                    params['Stoploss'] = 0
                     params['TargetValue'] = 0
-                    params['Target'] = 0
                     params['buy_price'] = 0
+                    params["TargetExecuted"] =True
+                    params["StoplossExecuted"] = False
 
 
                 if (
@@ -687,23 +706,26 @@ def main_strategy ():
                     closed_pnl.append(params["pnl_current_trade_close"])
                     if params['Symbol'] == "NIFTY":
                         niftypnl.append(params["pnl_current_trade_close"])
+                        orderlog = f"{timestamp} {params['Symbol']}: Stoploss executed for  {params['zerodha_symbol']} @ {exit_price}, pnl booked : {niftypnl} "
+
                     if params['Symbol'] == "BANKNIFTY":
                         bankniftypnl.append(params["pnl_current_trade_close"])
+                        orderlog = f"{timestamp} {params['Symbol']}: Stoploss executed for  {params['zerodha_symbol']} @ {exit_price}, pnl booked : {bankniftypnl} "
+
                     AlgosysIntegration.place_getalert(symbol=params['algosys_symbol'], direction="LX", price=exit_price,
                                                       code=strategycode, qty=params["Quantity"])
-                    orderlog = f"{timestamp} {params['Symbol']}: Stoploss executed for  {params['zerodha_symbol']} @ {exit_price}"
                     print(orderlog)
                     write_to_order_logs(orderlog)
                     params['StoplossValue'] = 0
-                    params['Stoploss'] = 0
                     params['TargetValue'] = 0
-                    params['Target'] = 0
                     params['buy_price']=0
+                    params["TargetExecuted"] = False
+                    params["StoplossExecuted"] = True
 
 
 
 
-    #             booked pnl
+                    #             booked pnl
                 if len(closed_pnl) > 1:
                     total_pnl = sum(closed_pnl)
                     if params['Symbol'] == "NIFTY":
@@ -719,11 +741,11 @@ def main_strategy ():
                     runningpnl=runningpnl*params["Quantity"]
                     if params['Symbol'] == "NIFTY":
                         runningnifty= runningpnl
-                        print(f"{timestamp}  Total PnL running {params['algosys_symbol']} :{runningnifty}, NIFTY Entry Price= {params['buy_price']}, ltp ={ltp}")
+                        print(f"{timestamp}  Total PnL running {params['algosys_symbol']} :{runningnifty}, NIFTY Entry Price= {params['buy_price']}, ltp ={ltp}, Stoploss={params['StoplossValue'] }")
 
                     if params['Symbol'] == "BANKNIFTY":
                         runningbanknifty = runningpnl
-                        print(f"{timestamp} Total PnL running {params['algosys_symbol']} :{runningbanknifty}, BANKNIFTY Entry Price= {params['buy_price']}, ltp ={ltp}")
+                        print(f"{timestamp} Total PnL running {params['algosys_symbol']} :{runningbanknifty}, BANKNIFTY Entry Price= {params['buy_price']}, ltp ={ltp}, Stoploss={params['StoplossValue'] }")
 
                     runcombo= runningnifty+runningbanknifty
 
@@ -776,13 +798,16 @@ def main_strategy ():
                         
 
     #             tsl implementstaion
+                print(params["USETSL"])
+                print("Tsl Level : ",params['tsl_start'])
+
 
                 if (
-                        float(Zerodha_Integration.get_ltp_option(params['zerodha_symbol'])) >= params['tsl_start'] and
-                        params["USETSL"]=="TRUE" and  params["InitialTrade"] is not None
-                ):
-                    params['StoplossValue'] =float(Zerodha_Integration.get_ltp_option(params['zerodha_symbol']))-float(params['TSL_BY'])
-                    params['tsl_start']=float(Zerodha_Integration.get_ltp_option(params['zerodha_symbol']))+float(params['TSL_BY'])
+                        float(ltp) >= params['tsl_start'] and
+                        params["USETSL"]==True and  params["InitialTrade"] is not None
+                    ):
+                    params['StoplossValue'] =float(ltp)-float(params['TSL_BY'])
+                    params['tsl_start']=float(ltp)+float(params['TSL_BY'])
                     orderlog = f"{timestamp} {params['Symbol']}: Tsl executed for {params['zerodha_symbol']} new stoploss {params['StoplossValue']}"
                     print(orderlog)
                     write_to_order_logs(orderlog)
