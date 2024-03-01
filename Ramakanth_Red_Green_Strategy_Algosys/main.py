@@ -119,6 +119,9 @@ def get_user_settings():
                 "TotalRunningPnlBanknifty": 0,
                 "TargetExecuted":False,
                 "StoplossExecuted": False,
+                "TradeDone":False,
+                "BuyExitTime":None,
+                "SellExitTime": None,
 
             }
             result_dict[row['Symbol']] = symbol_dict
@@ -225,7 +228,7 @@ def main_strategy ():
 
                 if datetime.now() >= params["runtime"]:
                     try:
-                        if params["cool"] ==True:
+                        if params["cool"] == True :
                             time.sleep(int(FetchHistoryDelay))
                         data=Zerodha_Integration.get_historical_data(Token=token, timeframe=params["Timeframe"],sym=params["Symbol"])
                         last_three_rows = data.tail(3)
@@ -297,7 +300,8 @@ def main_strategy ():
                         params["TradingEnable"]==True and
                         params['InitialTrade'] in [None, "SHORT"] and
                         close_value > open_value and close_value>0 and open_value>0 and
-                        params['secondrytradeselltime'] != time_value
+                        params['secondrytradeselltime'] != time_value and
+                        params["BuyExitTime"] !=time_value
                 ):
 
                     if params['InitialTrade'] =="SHORT" and params["TargetExecuted"]==False and params["StoplossExecuted"]==False:
@@ -363,6 +367,8 @@ def main_strategy ():
                     params['buy_price'] = buyprice_ce
                     params['tsl_start'] = params['buy_price'] + params['TSL_AFTER']
                     # LE,LX
+                    timestamp = datetime.now()
+                    timestamp = timestamp.strftime("%d/%m/%Y %H:%M:%S")
                     AlgosysIntegration.place_getalert(symbol=algosyssymbol, direction="LE", price=buyprice_ce, code=strategycode, qty=params["Quantity"])
                     orderlog=(f"{timestamp} Initial Buy taken previous candle green  open =  {open_value} , close={close_value} @ {params['Symbol']} @ {usedltp} @ CE contract ={params['zerodha_symbol']} @ price {params['buy_price']} @ previous candle time {time_value}"
                               f"@ stoploss : {params['StoplossValue']} , @ target {params['TargetValue']}")
@@ -370,6 +376,7 @@ def main_strategy ():
                     write_to_order_logs(orderlog)
                     params["TargetExecuted"] =False
                     params["StoplossExecuted"] =False
+                    params["TradeDone"] = True
 
 
 
@@ -378,7 +385,8 @@ def main_strategy ():
                         params["TradingEnable"] == True and
                         params['InitialTrade'] in [None, "BUY"] and
                         close_value < open_value and  close_value>0 and open_value>0 and
-                        params['secondrytradebuytime'] != time_value
+                        params['secondrytradebuytime'] != time_value and
+                        params["SellExitTime"] != time_value
                 ):
                     # initial sell take PUT
 
@@ -442,12 +450,15 @@ def main_strategy ():
                     # LE,LX
                     AlgosysIntegration.place_getalert(symbol=algosyssymbol, direction="LE", price=buyprice_pe,
                                                       code=strategycode, qty=params["Quantity"])
+                    timestamp = datetime.now()
+                    timestamp = timestamp.strftime("%d/%m/%Y %H:%M:%S")
                     orderlog = (f" {timestamp} Initial Buy taken previous candle red ,open =  {open_value} , close={close_value} @ {params['Symbol']} @ {usedltp} @ PE contract ={params['zerodha_symbol']} @ price {params['buy_price'] } @ previous candle time {time_value} "
                                 f"@ stoploss : {params['StoplossValue']} , @ target {params['TargetValue']}")
                     print(orderlog)
                     write_to_order_logs(orderlog)
                     params["TargetExecuted"] = False
                     params["StoplossExecuted"] = False
+                    params["TradeDone"] = True
 
 
 
@@ -455,7 +466,8 @@ def main_strategy ():
                 if (
                         params["TradingEnable"] == True and
                         params["InitialTrade"]== "BUY" and
-                        usedltp < low_value and low_value>0
+                        usedltp < low_value and low_value>0 and
+                        params["SellExitTime"] != time_value
                 ):
                     # take put
                     if params["OPTION_CONTRACT_TYPE"] == "ATM":
@@ -518,12 +530,14 @@ def main_strategy ():
                     write_to_order_logs(orderlog)
                     params["TargetExecuted"] = False
                     params["StoplossExecuted"] = False
+                    params["TradeDone"] = True
 
 
                 if (
                         params["TradingEnable"] == True and
                         params["InitialTrade"]== "SHORT" and
-                        usedltp >high_value  and high_value>0
+                        usedltp >high_value  and high_value>0 and
+                        params["BuyExitTime"] != time_value
                 ):
                     # take Call
 
@@ -593,6 +607,7 @@ def main_strategy ():
                     write_to_order_logs(orderlog)
                     params["TargetExecuted"] = False
                     params["StoplossExecuted"] = False
+                    params["TradeDone"] = True
 
 
 
@@ -630,6 +645,10 @@ def main_strategy ():
                     params['buy_price'] = 0
                     params["TargetExecuted"] = True
                     params["StoplossExecuted"] = False
+                    params["TradeDone"] = False
+                    params['InitialTrade']=None
+                    params["BuyExitTime"] = time_value
+                    params["SellExitTime"] = None
 
 
 
@@ -661,6 +680,10 @@ def main_strategy ():
                     params['buy_price'] = 0
                     params["TargetExecuted"] = False
                     params["StoplossExecuted"] =True
+                    params["TradeDone"] = False
+                    params['InitialTrade'] = None
+                    params["BuyExitTime"] = time_value
+                    params["SellExitTime"] =None
 
 
                 if (
@@ -691,6 +714,10 @@ def main_strategy ():
                     params['buy_price'] = 0
                     params["TargetExecuted"] =True
                     params["StoplossExecuted"] = False
+                    params["TradeDone"] = False
+                    params['InitialTrade'] = None
+                    params["SellExitTime"] = time_value
+                    params["BuyExitTime"] = None
 
 
                 if (
@@ -721,6 +748,10 @@ def main_strategy ():
                     params['buy_price']=0
                     params["TargetExecuted"] = False
                     params["StoplossExecuted"] = True
+                    params["TradeDone"] = False
+                    params['InitialTrade'] = None
+                    params["SellExitTime"] = time_value
+                    params["BuyExitTime"] = None
 
 
 
@@ -729,10 +760,10 @@ def main_strategy ():
                 if len(closed_pnl) > 1:
                     total_pnl = sum(closed_pnl)
                     if params['Symbol'] == "NIFTY":
-                        print(f"{timestamp}  Nifty PnL Booked :{sum(niftypnl)}")
+                        print(f"{timestamp}  Nifty PnL Booked :{round(sum(niftypnl),2)}")
                     if params['Symbol'] == "BANKNIFTY":
-                        print(f"{timestamp} Banknifty PnL Booked :{sum(bankniftypnl)}")
-                        print(f"{timestamp} Total PnL Booked (NIFTY + BANKNIFTY) :{total_pnl}" )
+                        print(f"{timestamp} Banknifty PnL Booked :{round(sum(bankniftypnl),2)}")
+                        print(f"{timestamp} Total PnL Booked (NIFTY + BANKNIFTY) :{round(total_pnl,2)}" )
 
 
     #             running pnl current trade
@@ -741,20 +772,20 @@ def main_strategy ():
                     runningpnl=runningpnl*params["Quantity"]
                     if params['Symbol'] == "NIFTY":
                         runningnifty= runningpnl
-                        print(f"{timestamp}  Total PnL running {params['algosys_symbol']} :{runningnifty}, NIFTY Entry Price= {params['buy_price']}, ltp ={ltp}, Stoploss={params['StoplossValue'] }")
+                        print(f"{timestamp}  Total PnL running {params['algosys_symbol']} :{round(runningnifty,2)}, NIFTY Entry Price= {params['buy_price']}, ltp ={ltp}, Stoploss={params['StoplossValue'] }")
 
                     if params['Symbol'] == "BANKNIFTY":
                         runningbanknifty = runningpnl
-                        print(f"{timestamp} Total PnL running {params['algosys_symbol']} :{runningbanknifty}, BANKNIFTY Entry Price= {params['buy_price']}, ltp ={ltp}, Stoploss={params['StoplossValue'] }")
+                        print(f"{timestamp} Total PnL running {params['algosys_symbol']} :{round(runningbanknifty,2)}, BANKNIFTY Entry Price= {params['buy_price']}, ltp ={ltp}, Stoploss={params['StoplossValue'] }")
 
                     runcombo= runningnifty+runningbanknifty
 
-                    print(f"{timestamp} Total PnL running Combined Nifty & Banknifty (Unrealised):{runcombo}")
+                    print(f"{timestamp} Total PnL running Combined Nifty & Banknifty (Unrealised):{round(runcombo,2)}")
 
                     if len(closed_pnl) > 1:
                         combined= calculatefinalpnl(totalpnl=total_pnl,runningpnl=runcombo)
                         if params['Symbol'] == "BANKNIFTY":
-                            print(f"{timestamp} Total PnL combined Nifty & Banknifty (Realised  + Unrealised) :{combined}")
+                            print(f"{timestamp} Total PnL combined Nifty & Banknifty (Realised  + Unrealised) :{round(combined,2)}")
 
                     else:
                         combined = runcombo
@@ -767,7 +798,7 @@ def main_strategy ():
 
                             timestamp = datetime.now()
                             timestamp = timestamp.strftime("%d/%m/%Y %H:%M:%S")
-                            if isinstance(symbol_value, str):
+                            if isinstance(symbol_value, str) and params["TradeDone"] == True:
                                 params["TradingEnable"] = False
                                 exit_price =Zerodha_Integration.get_ltp_option(params['zerodha_symbol'])
                                 AlgosysIntegration.place_getalert(symbol=params['algosys_symbol'], direction="LX",
@@ -784,7 +815,7 @@ def main_strategy ():
 
                             timestamp = datetime.now()
                             timestamp = timestamp.strftime("%d/%m/%Y %H:%M:%S")
-                            if isinstance(symbol_value, str):
+                            if isinstance(symbol_value, str)and params["TradeDone"] == True:
                                 params["TradingEnable"] = False
                                 exit_price = Zerodha_Integration.get_ltp_option(params['zerodha_symbol'])
                                 AlgosysIntegration.place_getalert(symbol=params['algosys_symbol'], direction="LX",
@@ -804,11 +835,14 @@ def main_strategy ():
 
                 if (
                         float(ltp) >= params['tsl_start'] and
-                        params["USETSL"]==True and  params["InitialTrade"] is not None
+                        params["USETSL"]==True and
+                        params["InitialTrade"] is not None and
+                        params['StoplossValue']>0
+
                     ):
                     params['StoplossValue'] =float(ltp)-float(params['TSL_BY'])
                     params['tsl_start']=float(ltp)+float(params['TSL_BY'])
-                    orderlog = f"{timestamp} {params['Symbol']}: Tsl executed for {params['zerodha_symbol']} new stoploss {params['StoplossValue']}"
+                    orderlog = f"{timestamp} {params['Symbol']}: Tsl Modified for {params['zerodha_symbol']} new stoploss {params['StoplossValue']}"
                     print(orderlog)
                     write_to_order_logs(orderlog)
 
